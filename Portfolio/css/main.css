@@ -1,0 +1,152 @@
+@font-face{font-family: Amontillado;
+src:url("../fonts/Amontillado.ttf");
+}
+html, body {
+    margin: 0 ;
+    height: 100%;
+    background-color: #dff0d8;
+	background-size: 100% 100%;
+}
+
+.navbar{
+	opacity: .6; 
+	margin-bottom: 0px; 
+	margin-bottom: 0px;
+}
+
+.navbar-brand img{
+	width: 40px; 
+	margin-top: -10px;
+}
+
+.frontpagebg {
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 91.9%;
+	width: 100%;
+}
+
+#frontPage {
+	text-align: center;
+	padding-top: 5%;
+}
+
+#title h5 {
+	color: white;
+	font-family: Amontillado;
+	font-size: 150px;
+}
+
+#subtitle h4 {
+	color: grey;
+	font-size: 200%;
+	font-family: calibri;
+}
+
+#logo {
+	width: 20%;
+	height: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.header{
+	font-family: Amontillado;
+	font-size: 120px;
+	background-size: 100% 100%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.subheader {	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Amontillado;
+	font-size: 80px;
+}
+
+.banner {
+	padding:0px;
+}
+
+.banner img{width: 100%; max-height: 350px;
+}
+
+.myhover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .6
+}
+
+.bigproj{ 
+	width: 500px; 
+	max-height: 420px;
+	display:none; 
+	border-radius:10px; 
+}
+
+.proj{
+	width: 260px; 
+	display:none; 
+	border-radius:10px; 
+	max-height: 240px;
+}
+
+.services {
+	height: 130px;
+	padding-top:4px; 
+	border: 1px solid; 
+	background-color: mistyrose; 
+	border-radius: 10px; 
+	margin:16px;
+	width: 308px;
+}
+
+.textbox {
+	font-size: 15px;}
+
+.workImageBox1 {
+	padding:0px; 
+	height: 330px;
+}
+
+.workImage1 {
+	 margin:0px; 
+	 width: 100%; 
+	 min-width: 460px;
+	 z-index: -1;
+	 padding:0px; 
+	 max-height: 330px;
+}
+
+.workImageBox2 {
+	margin:0px; 
+	padding:0px; 
+}
+
+.workImage2 {
+	 margin:0px; 
+	 padding:0px; 
+	 min-width: 460px;
+	 width: 100%; 
+	 z-index: -1;
+	 max-height: 310px;
+}
+
+
+#contacttext{
+	padding:10px;
+	margin-right:60px;
+	margin-bottom: 20px;
+}
+
+footer {
+	padding: 15px;
+   	height:105px;
+   	background:lavender;
+   	opacity: 0.9; 
+   	bottom: 0px;
+}
