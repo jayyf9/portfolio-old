@@ -1,0 +1,32 @@
+.port-image {
+  width:100%;
+}
+
+.col-md-3 {
+  margin-bottom:20px;
+}
+
+.each-item {
+  position:relative;
+  overflow:hidden;
+  height:300px;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1 {
+  left:0px;
+}
+
+.cap1 {
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(255,255,255,0.5);
+  top:0px;
+  left:-100%;
+  padding:10px;
+  transition:all .5s;
+}
+
+.cap1 p {
+  color:black;
+}

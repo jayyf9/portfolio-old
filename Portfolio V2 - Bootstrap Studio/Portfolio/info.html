@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    
+<head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake French - Web Design/Development</title>
+    <!-- Bootstrap: Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Bootstrap: Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">    
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="icon" type="image/icon" href="img/favicon.ico">
+    <!-- jquery CDN -->
+    <script src="js/jquery.min.js"></script>    
+    <!-- Bootstrap: Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img alt="Brand" src="img/logo.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-right collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="capabilities.html">Capabilities</a></li>
+        <li class="active"><a href="info.html">Info</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+
+  <script>
+    $(document).ready(function(){ 
+        $(".navbar").mouseenter(function() {
+            $(this).css('opacity', '1');
+        })
+        $(".navbar").mouseleave(function() {
+            $(this).css('opacity', '.6');
+        });
+    });
+  </script>
+</nav>
+
+
+<body>
+
+  <div class="bg-info col-md-6">
+    <h2 class="subheader">Client Experience</h2>
+    <ul class="textbox">
+      <li>
+        <b>Meet/Plan</b>
+        We will start by meeting and beginning discussions about what you are trying to achieve and the specifics of the website (pages/content/ideas).
+      </li>
+      <li>
+        <b>Design</b>
+        Following our discussions I will get to work with different designs until I find my favourite options that meet your requirements. I will show and discuss these with you for feedback on any refinements that are needed.
+      </li>
+      <li>
+        <b>Develop</b>
+        Development can begin, I will focus on writing clean organised code to bring the deign to life.
+      </li>
+      <li>
+        <b>Test</b>
+        Testing is important as we want to provide a polished and stable final product, so rigourous testing on the website will be done before completion.
+      </li>
+      <li>
+        <b>Launch</b>
+        Finally I will help get the website hosted in your chosen way and it will be ready to hit the web!
+      </li>
+    </ul>
+  </div>
+
+  <div class="workImageBox1 bg-info col-md-6" style="margin:0px;padding: 0px;"><img class="workImage1" src="img/hireMe.jpg" /></div>
+  
+  <div class="workImageBox2 bg-success col-md-6"><img class="workImage2" src="img/hireMe2.jpg" /></div> 
+  <div class="bg-success col-md-6" style="height: 310px;">
+    <h2 class="subheader" style="min-width: 400px;">Rates & Availibility</h2>
+    <p class="textbox">
+    All work is billed on a day rate basis and I usually book my available time in daily increments. A day is equal to 7 hours of work, which is also the minimum hours I usually book for depending on if we have worked together before or not. If your project requires a fixed price then this is also possible.
+    To check my current availibility please get in touch, this can change daily and I try to plan everything in advance. That being said please still contact me if your project requires urgent attention as we may be able to sort something out.
+    </p>
+  </div>  
+  
+
+</body>
+</html>
+
