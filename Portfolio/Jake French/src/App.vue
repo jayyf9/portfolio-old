@@ -87,6 +87,7 @@ created() {
 
 .contactButtons {
   display: flex;
+  margin-top: -25px;
 }
 
 .contactMe {
@@ -107,7 +108,6 @@ created() {
 .button-effect {
   background-color: rgb(66, 140, 238);
   color: white;
-  border-top: 2px solid rgb(35, 35, 199);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -121,7 +121,6 @@ created() {
 .button-effect:hover {
   background-color: #f2f2f2;
   color: #3db9fb;
-  border-top: 2px solid white;
   -webkit-box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 1);
   -moz-box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 1);
   box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 1);
@@ -130,7 +129,6 @@ created() {
 .button-effect:active {
   background-color: #f2f2f2;
   color: #3db9fb;
-  border-top: 2px solid rgba(200, 200, 200, 1);
   -webkit-box-shadow: 0px 3px 0px 0px rgba(255, 255, 255, 1);
   -moz-box-shadow: 0px 3px 0px 0px rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 0px 0px rgba(255, 255, 255, 1);

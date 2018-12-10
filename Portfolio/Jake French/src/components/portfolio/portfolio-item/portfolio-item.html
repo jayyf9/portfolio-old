@@ -12,20 +12,13 @@
       </div>
     </div>
   </div>
-  <div class="row">
-      <img v-if="websites[$route.params.id].siteImage1" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage1">
-      <img v-if="websites[$route.params.id].siteImage2" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage2">
-  </div>
-  <div class="row">
-      <img v-if="websites[$route.params.id].siteImage3" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage3">
-      <img v-if="websites[$route.params.id].siteImage4" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage4">
-  </div>
-  <div class="row">
-      <img v-if="websites[$route.params.id].siteImage5" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage5">
-      <img v-if="websites[$route.params.id].siteImage6" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage6">
-  </div>
-  <div class="row">
-      <img v-if="websites[$route.params.id].siteImage7" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage7">
-      <img v-if="websites[$route.params.id].siteImage8" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage8">
-  </div>
+  <v-app>
+    <v-carousel>
+      <v-carousel-item
+        v-for="(website,i) in websites[$route.params.id].siteImages"
+        :key="i"
+        :src="website"
+      ></v-carousel-item>
+    </v-carousel>
+  </v-app>
 </div>

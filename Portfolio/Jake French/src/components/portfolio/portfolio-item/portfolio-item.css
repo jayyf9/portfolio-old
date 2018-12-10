@@ -11,3 +11,7 @@
 .skills {
     padding: 10px;
 }
+
+.application--wrap {
+    min-height: 1vh !important;
+}
