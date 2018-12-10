@@ -1,0 +1,9 @@
+<div class="col s12 m12"> 
+    Testttt
+    <i>{{posts[$route.params.id].date}}</i>
+    <h3>{{posts[$route.params.id].title}}</h3>
+    <h5>{{posts[$route.params.id].header}}</h5>
+    <p>{{posts[$route.params.id].content}}</p>
+    <p>{{posts[$route.params.id].htmlContent}}</p>
+    <img class="responsive-img materialboxed" v-bind:src="posts[$route.params.id].img">
+</div>

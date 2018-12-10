@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    background-image: url("../assets/background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat; /* Do not repeat the image */
+ }
+
+.size {
+    width: 100px;
+}
+
+nav {
+    background-color: lightblue !important;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.header {
+    color: darkblue;
+}
+
+.nav-items {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.portfolioContainer {
+    display: flex;
+}
+
+.introText {
+    margin-bottom: 80px;
+}
+
+.postList {
+    margin-top: 40px;
+}
+
+.active {
+    color: black;
+}
+
+.site-cover {
+    height: 350px;
+}

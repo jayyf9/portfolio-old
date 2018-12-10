@@ -1,0 +1,31 @@
+<div>
+  <h3 class="site-title">{{websites[$route.params.id].title}}</h3>
+  <div class="row">
+    <div class="col s8  ">
+      <p>This is a website for a local Cafe trying to get there business online for the first time and wanted a site
+        that simply advertises there services in a classy and modern way.</p>
+    </div>
+    <div class="col s4">
+      <div>
+        <div class="valign-wrapper"><i class="fab fa-wordpress-simple small material-icons"></i> &nbsp; Wordpress</div>
+        <div class="valign-wrapper"><i class="fas fa-pencil-alt small material-icons"></i> &nbsp; Logo Design</div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+      <img v-if="websites[$route.params.id].siteImage1" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage1">
+      <img v-if="websites[$route.params.id].siteImage2" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage2">
+  </div>
+  <div class="row">
+      <img v-if="websites[$route.params.id].siteImage3" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage3">
+      <img v-if="websites[$route.params.id].siteImage4" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage4">
+  </div>
+  <div class="row">
+      <img v-if="websites[$route.params.id].siteImage5" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage5">
+      <img v-if="websites[$route.params.id].siteImage6" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage6">
+  </div>
+  <div class="row">
+      <img v-if="websites[$route.params.id].siteImage7" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage7">
+      <img v-if="websites[$route.params.id].siteImage8" class="thumbnailImages col s6 m6" v-bind:src="websites[$route.params.id].siteImage8">
+  </div>
+</div>

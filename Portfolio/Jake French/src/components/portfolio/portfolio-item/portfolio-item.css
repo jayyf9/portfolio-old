@@ -1,0 +1,13 @@
+.thumbnailImages {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row img {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.skills {
+    padding: 10px;
+}

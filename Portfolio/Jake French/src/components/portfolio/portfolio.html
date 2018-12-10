@@ -1,0 +1,19 @@
+<div class="portfolioContainer">
+    <div class="row">
+        <div class="col s6 m6" v-for="website of websites">
+            <div class="portfolioRow">
+                <router-link class="portfolioItem" to="/" :to="{path: '/portfolioItem/' + website.id}">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="site-cover" v-bind:src="website.img">
+                            <span class="card-title">{{website.title}}</span>
+                        </div>
+                        <div class="card-content">
+                            <p>{{website.content}}</p>
+                        </div>
+                    </div>
+                </router-link>
+            </div>
+        </div>
+    </div>
+</div>
