@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <div class="contactButtons">
-      <a href="mailto:jayyf9@gmail.com?Subject=Website%20query"><div class="center-align button-effect contactMe"> <i class="tiny material-icons">mail_outline</i></div></a>&nbsp;
-      <a href="https://twitter.com/Jayyf9" class="button-effect btn-sn"><div class="center-align button-effect contactMe"> <i class="fab fa-twitter"></i></div></a>&nbsp;
-      <a href="https://www.linkedin.com/in/jake-french-200a0462/" class="center-align button-effect btn-sn"><div class="button-effect contactMe"><i class="fab fa-linkedin"></i></div></a>&nbsp;
+    <div class="contact-buttons">
+      <a href="mailto:jayyf9@gmail.com?Subject=Website%20query"><div class="center-align button-effect contact-me"> <i class="tiny material-icons">mail_outline</i></div></a>&nbsp;
+      <a href="https://twitter.com/Jayyf9" class="button-effect btn-sn"><div class="center-align button-effect contact-me"> <i class="fab fa-twitter"></i></div></a>&nbsp;
+      <a href="https://www.linkedin.com/in/jake-french-200a0462/" class="center-align button-effect btn-sn"><div class="button-effect contact-me"><i class="fab fa-linkedin"></i></div></a>&nbsp;
     </div>
     <div class="center header">
-        <h3 class="mainHeader"><router-link to="/home">Jake French</router-link></h3>
+        <h3 class="main-header"><router-link to="/home">Jake French</router-link></h3>
         <span>Web designer - Front End Developer - UX Designer</span>
     </div>
     <div class="center nav-items">
@@ -75,22 +75,24 @@ created() {
 </script>
 
 <style>
-.mainHeader {
+.main-header {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 50px;
   text-decoration: none;
-  margin-top: -10px;
 }
 
-.mainHeader :hover {
+.main-header :hover {
    font-weight: bold;
    color: gold
 }
 
-.contactButtons {
+.contact-buttons {
   display: flex;
   margin-top: -25px;
 }
 
-.contactMe {
+.contact-me {
   flex: 1;
   width: 50px;
   color: rgb(0, 0, 185);
@@ -100,7 +102,7 @@ created() {
   background-color: #cbf2ff;
 }
 
-.contactMe i {
+.contact-me i {
   top: 2px;
   position: relative;
 }
@@ -119,7 +121,7 @@ created() {
 }
 
 .button-effect:hover {
-  background-color: #f2f2f2;
+  background-color: gold;
   color: #3db9fb;
   -webkit-box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 1);
   -moz-box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 1);

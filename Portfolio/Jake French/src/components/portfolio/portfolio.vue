@@ -6,15 +6,15 @@
         websites: [
           {
             id: 0,
-            img: "./src/images/portfolio-items/cafe-ella/cafe-ella-logo.jpg",
-            title: 'Cafe Ella',
+            img: "./src/images/portfolio-items/multione-web/multione-web-2.png",
+            title: 'MultiOne Web',
             content: 'This is a website for a local Cafe trying to get there business online for the first time and wanted a site that simply advertises there services in a classy and modern way.'
           },
           {
             id: 1,
-            img: "./src/images/portfolio-items/food-bible/food-bible.jpg",
-            title: 'Food Bible',
-            content: 'This is a website that allows users to look through other recipies uploaded by users and rate/give feedback allow for a communtiy of food lovers to come together.'
+            img: "./src/images/portfolio-items/altran-academy/altran-academy2.png",
+            title: 'Altran Academy',
+            content: 'A company training website that allows users to search filter and enroll on courses easily.'
           },
           {
             id: 2,
@@ -29,8 +29,12 @@
   }
 </script>
 <style>
+  .card-content {
+    height: 80px;
+  }
+
   .portfolioContainer {
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   .site-cover {
@@ -38,13 +42,15 @@
   }
   
   .portfolioRow {
-    height: 450px;
+    height: 410px;
   }
   
   .portfolioItem {
     max-height: 500px;
   }
   .card:hover{ 
-    background-color: lightgray;
+    color: white;
+    background-color: rgb(66, 140, 238);
     }
+
 </style>

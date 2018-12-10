@@ -11,4 +11,17 @@
   .introText {
     margin-top: 100px;
   }
+
+  .link {
+    cursor: pointer;
+  }
+
+  .link:hover {
+    color: gold
+  }
+
+  .tooltip {
+    width: 300px;
+    height: 250px;
+  }
 </style>

@@ -1,10 +1,27 @@
 <div class="introContainer center-align">
     <div class="row">
         <div class="introText col s12">
-            <h4>Hi, my Name is <b>Jake!</b> I am UX focussed <b>Web designer</b> and <b>developer</b> based in the
-                <b>Netherlands</b>.</h4> <br>
-            <h5>I work freelance so <router-link to="/portfolio">check out some of my work</router-link> and if you are
-                interested <a href="mailto:jayyf9@gmail.com?Subject=Website%20query">get in touch!</a></h5>
+            <h4>Hi, my Name is
+                    <v-tooltip absolute="true" nudge-bottom="40">
+                        <span slot="activator"><b class="link">Jake!</b></span>
+                        <img class="tooltip" src="./../../images/me.jpg">
+                    </v-tooltip>
+                 I am UX focussed 
+                 <v-tooltip absolute="true" nudge-bottom="40">
+                        <span slot="activator"><b class="link">Web designer</b></span>
+                        <img class="tooltip" src="./../../images/design.jpg">
+                </v-tooltip> and 
+                <v-tooltip absolute="true" nudge-bottom="40">
+                        <span slot="activator"><b class="link">developer</b></span>
+                        <img class="tooltip" src="./../../images/work.jpg">
+                </v-tooltip> based in the
+                <v-tooltip absolute="true" nudge-bottom="40">
+                        <span slot="activator"><b class="link">Netherlands</b></span>
+                        <img class="tooltip" src="./../../images/amsterdam.jpg">
+                </v-tooltip>
+                .</h4> <br>
+            <h5>I work freelance so <router-link to="/portfolio" class="link">check out some of my work</router-link> and if you are
+                interested <a href="mailto:jayyf9@gmail.com?Subject=Website%20query" class="link">get in touch!</a></h5>
         </div>
     </div>
 </div>

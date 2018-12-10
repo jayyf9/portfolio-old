@@ -21,7 +21,7 @@
 </script>
 <style>
   .blogContainer {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .postRow{
     height: 430px;
