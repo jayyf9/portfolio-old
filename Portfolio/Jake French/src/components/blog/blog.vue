@@ -20,9 +20,6 @@
 
 </script>
 <style>
-  .card-content {
-    height: 180px;
-  }
   .blogContainer {
     margin-top: 40px;
   }
