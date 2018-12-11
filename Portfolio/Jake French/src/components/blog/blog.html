@@ -1,18 +1,21 @@
 <div class="blogContainer">
     <div class="row">
         <div v-for="post of posts" class="post col s6 m6">
-            <div class="postRow">
-                <router-link class="blogPost" :to="{path: '/blog/post/' + post.url}">
+            <div class="post-row">
+                <router-link class="blog-post" :to="{path: '/blog/post/' + post.url}">
                     <div class="card">
                         <div class="card-image">
-                            <img style="max-height: 270px;" v-bind:src="post.img">
+                            <img style="height: 300px;" v-bind:src="post.img">
                             <!-- The size of this image moves everything around!!! (may be because of the image used) -->
                         </div>
-                        <div class="center-align card-title">{{post.title}}</div>
+                        <h3 class="center-align card-title">{{post.title}}</h3>
                         <div class="card-content">
                             <b>{{post.header}}</b>
-                            <p>{{post.content}}</p>
+                            <p>{{post.content}}<span>.....</span></p>
+                            <v-btn class="button" style="width: 100%; height: 50px;">Read More..</v-btn>
                         </div>
+
+
                     </div>
                 </router-link>
             </div>

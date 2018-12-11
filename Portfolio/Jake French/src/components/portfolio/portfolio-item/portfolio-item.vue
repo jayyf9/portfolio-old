@@ -6,22 +6,25 @@
         websites: [
           {
             id: 0,
-            img: "./src/images/portfolio-items/multione-web/multione-web-2.png",
             title: 'MultiOne Web',
-            content: 'A philips site used to configure lighting device drivers with a large variety of configurations.',
+            description: 'This is a website for a local Cafe trying to get there business online for the first time and wanted a site that simply advertises there services in a classy and modern way. To create an in depth lighting device configuration solution allowing for configuration of device drivers and exporting a project file for programming the devices. Philips Lighting has a software solution available allowing users to configure lighting devices technical features, however, this is a feature rich and deep system and does not cater well to users without a lot of technical knowledge. MultiOne Web has the goal of providing Philips Lighting with a cloud-based replacement to their current software solution. With the aim of being a more fully fledged application providing wide configuration capabilities with a new improved flow and attractive user experience making the process more visual/interactive where possible.',
             siteImages: [
               "./src/images/portfolio-items/multione-web/multione-web-1.png",
               "./src/images/portfolio-items/multione-web/multione-web-2.png",
               "./src/images/portfolio-items/multione-web/multione-web-3.png",
               "./src/images/portfolio-items/multione-web/multione-web-4.png",
               "./src/images/portfolio-items/multione-web/multione-web-5.png",
+            ],
+            skills: [
+              {icon: "fas fa-pencil-alt", title: "Design"},
+              {icon: "fab fa-angular", title: "Angular"},
+              {icon: "fab fa-node-js", title: "NodeJS"}
             ]
           },
           {
             id: 1,
-            img: "./src/images/portfolio-items/altran-academy/altran-academy2.png",
             title: 'Altran Academy',
-            content: 'Users can login and search for internal trainings and request enrollment to all trainings as well as request specific course via the external trainings section. Managers will see different menu items where they can review and accept/reject training requests for users.',
+            description: 'Users can login and search for internal trainings and request enrollment to all trainings as well as request specific course via the external trainings section. Managers will see different menu items where they can review and accept/reject training requests for users.',
             siteImages: [
               "./src/images/portfolio-items/altran-academy/altran-academy1.png",
               "./src/images/portfolio-items/altran-academy/altran-academy2.png",
@@ -29,13 +32,16 @@
               "./src/images/portfolio-items/altran-academy/altran-academy4.png",
               "./src/images/portfolio-items/altran-academy/altran-academy5.png",
               "./src/images/portfolio-items/altran-academy/altran-academy6.png",
+            ],
+            skills: [
+              {icon: "fab fa-angular", title: "Angular"},
+              {icon: "fab fa-node-js", title: "NodeJS"}
             ]
           },
           {
             id: 2,
-            img: "./src/images/portfolio-items/factory-of-the-future/fotf1.png",
             title: 'Factory of the future',
-            content: 'This is a website that allows users to look through other recipies uploaded by users and rate/give feedback allow for a communtiy of food lovers to come together.',
+            description: 'This is a website that allows users to look through other recipies uploaded by users and rate/give feedback allow for a communtiy of food lovers to come together.',
             siteImages: [
               "./src/images/portfolio-items/factory-of-the-future/fotf1.png",
               "./src/images/portfolio-items/factory-of-the-future/fotf2.png",
@@ -45,6 +51,9 @@
               "./src/images/portfolio-items/factory-of-the-future/fotf6.png",
               "./src/images/portfolio-items/factory-of-the-future/fotf7.png",
               "./src/images/portfolio-items/factory-of-the-future/fotf8.png"
+            ],
+            skills: [
+              {icon: "fab fa-angular", title: "Angular"}
             ]
           }
         ]
@@ -54,8 +63,42 @@
 </script>
 
 <style>
+.v-carousel__prev {
+  border-radius: 30px;
+  background-color: #039be5;
+}
+
+.v-carousel__next {
+  border-radius: 30px;
+  background-color: #039be5;
+}
+
+.v-btn--active {
+  background-color: #039be5;
+}
+
 .slider {
   margin-top: 30px;
+}
+
+.information {
+  min-height: 100px;
+}
+.site-title {
+    color: #039be5 !important;
+}
+
+.skills {
+  font-size: 22px;
+}
+
+.skills:hover {
+  cursor: pointer;
+  color: #039be5;
+}
+
+.icons {
+  font-size: 30px;
 }
 </style>
 

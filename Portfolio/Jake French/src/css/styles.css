@@ -8,20 +8,12 @@ body {
     background-repeat: no-repeat; /* Do not repeat the image */
  }
 
-.size {
-    width: 100px;
-}
-
 nav {
     background-color: lightblue !important;
 }
 
 .logo {
     margin-top: 10px;
-}
-
-.header {
-    color: darkblue;
 }
 
 .nav-items {
@@ -36,14 +28,6 @@ nav {
 
 main {
     flex: 1 0 auto;
-}
-
-.portfolioContainer {
-    display: flex;
-}
-
-.introText {
-    margin-bottom: 80px;
 }
 
 .postList {

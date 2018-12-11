@@ -8,8 +8,9 @@
   }
 </script>
 <style>
-  .introText {
+  .intro-text {
     margin-top: 100px;
+    margin-bottom: 80px;
   }
 
   .link {

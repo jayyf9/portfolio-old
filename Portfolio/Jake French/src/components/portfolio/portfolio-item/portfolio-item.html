@@ -1,24 +1,20 @@
 <div>
   <h3 class="site-title">{{websites[$route.params.id].title}}</h3>
-  <div class="row">
-    <div class="col s8  ">
-      <p>This is a website for a local Cafe trying to get there business online for the first time and wanted a site
-        that simply advertises there services in a classy and modern way.</p>
+  <div class="information row">
+    <div class="col s9">
+      <p>{{websites[$route.params.id].description}}</p>
     </div>
-    <div class="col s4">
-      <div>
-        <div class="valign-wrapper"><i class="fab fa-wordpress-simple small material-icons"></i> &nbsp; Wordpress</div>
-        <div class="valign-wrapper"><i class="fas fa-pencil-alt small material-icons"></i> &nbsp; Logo Design</div>
+    <div class="col s2">
+      <div v-for="(skill,i) in websites[$route.params.id].skills">
+        <div style="padding-bottom: 20px;" class="skills col s6 valign-wrapper"><i :class="skill.icon" class="icons"></i> &nbsp;{{skill.title}}</div>
       </div>
     </div>
   </div>
-  <v-app>
-    <v-carousel>
+    <v-carousel height="900">
       <v-carousel-item
         v-for="(website,i) in websites[$route.params.id].siteImages"
         :key="i"
         :src="website"
       ></v-carousel-item>
     </v-carousel>
-  </v-app>
 </div>

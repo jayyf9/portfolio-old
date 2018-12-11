@@ -20,13 +20,21 @@
 
 </script>
 <style>
+  .card-content {
+    height: 180px;
+  }
   .blogContainer {
     margin-top: 40px;
   }
-  .postRow{
+  .post-row{
     height: 430px;
   }
-  
+  .post-title {
+    color: #039be5 !important;
+  }
+  .button{
+    margin-bottom: 15px;
+  }
   .post {
     margin-bottom: 50px;
   }

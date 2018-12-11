@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <div class="contact-buttons">
-      <a href="mailto:jayyf9@gmail.com?Subject=Website%20query"><div class="center-align button-effect contact-me"> <i class="tiny material-icons">mail_outline</i></div></a>&nbsp;
-      <a href="https://twitter.com/Jayyf9" class="button-effect btn-sn"><div class="center-align button-effect contact-me"> <i class="fab fa-twitter"></i></div></a>&nbsp;
-      <a href="https://www.linkedin.com/in/jake-french-200a0462/" class="center-align button-effect btn-sn"><div class="button-effect contact-me"><i class="fab fa-linkedin"></i></div></a>&nbsp;
+      <a href="mailto:jayyf9@gmail.com?Subject=Website%20query"><div class="center-align button-effect contact-me"> <i class="fas fa-envelope"></i></div></a>&nbsp;
+      <a href="https://twitter.com/Jayyf9"><div class="center-align button-effect contact-me"> <i class="fab fa-twitter"></i></div></a>&nbsp;
+      <a href="https://www.linkedin.com/in/jake-french-200a0462/"><div class="center-align button-effect contact-me"><i class="fab fa-linkedin"></i></div></a>&nbsp;
     </div>
-    <div class="center header">
+    <div class="center">
         <h3 class="main-header"><router-link to="/home">Jake French</router-link></h3>
-        <span>Web designer - Front End Developer - UX Designer</span>
+        <span class="sub-header">Web designer - Front End Developer - UX Designer</span>
     </div>
     <div class="center nav-items">
         <b>
@@ -76,15 +76,24 @@ created() {
 
 <style>
 .main-header {
-  font-family: Georgia;
-  font-style: italic;
   font-size: 50px;
   text-decoration: none;
 }
 
+.sub-header {
+  font-size: 18px;
+
+}
+
+
+.sub-header:hover {
+  border-radius: 10px;
+  padding: 2px;
+}
+
 .main-header :hover {
    font-weight: bold;
-   color: gold
+   color: rgba(255, 217, 0, 0.8);
 }
 
 .contact-buttons {
@@ -94,10 +103,11 @@ created() {
 
 .contact-me {
   flex: 1;
-  width: 50px;
+  width: 70px;
+  height: 30px;
   color: rgb(0, 0, 185);
   border-radius: 5px;
-  margin-top: -6px;
+  margin-top: -4px;
   padding: 5px;
   background-color: #cbf2ff;
 }
@@ -105,6 +115,7 @@ created() {
 .contact-me i {
   top: 2px;
   position: relative;
+  font-size: 20px;
 }
 
 .button-effect {
@@ -122,7 +133,7 @@ created() {
 
 .button-effect:hover {
   background-color: gold;
-  color: #3db9fb;
+  color: #039be5;
   -webkit-box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 1);
   -moz-box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 1);
   box-shadow: 0px 3px 0px 0px rgba(200, 200, 200, 1);
@@ -130,7 +141,7 @@ created() {
 
 .button-effect:active {
   background-color: #f2f2f2;
-  color: #3db9fb;
+  color: #039be5;
   -webkit-box-shadow: 0px 3px 0px 0px rgba(255, 255, 255, 1);
   -moz-box-shadow: 0px 3px 0px 0px rgba(255, 255, 255, 1);
   box-shadow: 0px 3px 0px 0px rgba(255, 255, 255, 1);
