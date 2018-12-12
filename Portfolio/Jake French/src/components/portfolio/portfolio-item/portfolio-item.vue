@@ -19,7 +19,8 @@
               {icon: "fas fa-pencil-alt", title: "Design"},
               {icon: "fab fa-angular", title: "Angular"},
               {icon: "fab fa-node-js", title: "NodeJS"}
-            ]
+            ],
+            client: "./src/images/clients/philips.jpg",
           },
           {
             id: 1,
@@ -36,7 +37,8 @@
             skills: [
               {icon: "fab fa-angular", title: "Angular"},
               {icon: "fab fa-node-js", title: "NodeJS"}
-            ]
+            ],
+            client: "./src/images/clients/philips.jpg",
           },
           {
             id: 2,
@@ -54,7 +56,8 @@
             ],
             skills: [
               {icon: "fab fa-angular", title: "Angular"}
-            ]
+            ],
+            client: "./src/images/clients/philips.jpg",
           }
         ]
       } 
