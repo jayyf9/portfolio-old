@@ -32,7 +32,7 @@
   }
 </script>
 <style>
-  .card-content {
+  .portfolio-card-content {
     height: 80px;
   }
 
@@ -43,10 +43,6 @@
 
   .site-cover {
     max-height: 300px;
-  }
-  
-  .portfolio-row {
-    height: 410px;
   }
   
   .portfolio-item {
