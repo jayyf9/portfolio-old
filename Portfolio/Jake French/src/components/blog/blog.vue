@@ -18,11 +18,18 @@
   .post-row{
     height: 430px;
   }
+  .card:hover {
+    color: white;
+    background-color: rgba(66, 140, 238, 0.7)
+  }
   .post-title {
     color: #039be5 !important;
   }
-  .button{
+  .button {
     margin-bottom: 15px;
+  }
+  .read-more:hover {
+    background-color: gold !important;
   }
   .post {
     margin-bottom: 50px;

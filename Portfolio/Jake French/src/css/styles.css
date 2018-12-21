@@ -45,3 +45,7 @@ main {
 router-link.link :hover {
     color: gold
 }
+
+#app {
+    min-width: 850px;
+}

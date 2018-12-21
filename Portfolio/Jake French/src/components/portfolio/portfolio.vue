@@ -18,6 +18,7 @@
   .portfolio-container {
     display: flex;
     margin-top: 40px;
+    min-width: 850px;
   }
 
   .site-cover {

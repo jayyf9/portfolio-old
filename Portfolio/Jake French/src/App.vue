@@ -7,7 +7,7 @@
     </div>
     <div class="center">
         <h3 class="main-header"><router-link to="/home">Jake French</router-link></h3>
-        <span class="sub-header">Web designer - Front End Developer - UX Designer</span>
+        <span class="sub-header">Frontend Developer - UX Designer - Backend Developer</span>
     </div>
     <div class="center nav-items">
         <b>

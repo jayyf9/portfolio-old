@@ -48,7 +48,7 @@ import portfolioData from "./../portfolio-data.json";
 }
 
 .skills-section {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 </style>
